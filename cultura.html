@@ -79,8 +79,26 @@
                     </optgroup>
                 </select>
             </p>
-
-            
+<p>
+    <label for="notaEstilo">De 0 a 10, o quanto a moda representa a sua identidade?</label><br>
+    <input type="range" id="notaEstilo" name="notaEstilo" min="0" max="10"> value="5"
+    <span>Nota Selecionada:<output name="resultadoNota" for="notaEstilo">5</output></span>
+</p>
+<p>
+    <label for="acessorios">Quais acessórios completam o seu look? (segure o ctrl para selecionar mais de um):</label><br>
+    <select id="acessorios" name="acessorios" multiple size="4"></select>
+        <option value="boné">Boné</option>
+        <option value="corrente">Corrente</option>
+        <option value="pulseira">Pulseira</option>
+        <option value="relógio">Relógio</option>
+        <option value="óculos">Óculos de Sol</option>
+        <option value="anel">Anel</option>
+        <option value="colar">Colar</option>
+</p>
+    <p>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar Formulário</button>
+    </p>
 
         </form>
     </div>
